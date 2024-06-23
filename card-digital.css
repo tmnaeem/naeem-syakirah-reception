@@ -75,6 +75,19 @@ body {
     align-items: center;
 }
 
+.sec-section__height {
+    height: 100vh;
+}
+
+.sec-main-card {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .main_text {
     text-shadow: 0.3px 0.3px 0.3px rgba(0, 0, 0, 0.25);
     /* color: #f4d390; */
@@ -129,12 +142,12 @@ body {
 }
 
 .main-opening{
-    padding-top:28%;
+    padding-top:25rem;
 }
 
 @media only screen and (max-width: 600px) {
    .main-opening{
-        padding-top:45%;
+        padding-top:25rem;
    }
   }
 
@@ -301,4 +314,33 @@ body {
 
 .text-title-font-size{
     font-size:20px;
+}
+
+/* Naeem CSS */
+/* The container for the blurred background */
+.blurred-banner-area {
+    position: relative;
+    padding: 10px;
+
+}
+
+/* The blurred background */
+.banner-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 30px;
+    -webkit-backdrop-filter: blur(3px);
+    backdrop-filter: blur(3px);
+    z-index: 1;
+}
+
+/* The text container */
+.main_text {
+    position: relative;
+    z-index: 2;
+    /* Continue with the rest of the styles for .main_text */
 }
