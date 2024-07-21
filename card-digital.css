@@ -302,3 +302,20 @@ body {
 .text-title-font-size{
     font-size:20px;
 }
+
+.main-body {
+    /* Specify the path to your A4 size image */
+  background-image: url('img/marriednow-project/Syakirah.png');
+  
+  /* Ensure the background image covers the entire area */
+  background-size: contain;
+  
+  /* Repeat the background image */
+  background-repeat: repeat;
+  
+  /* Position the background image */
+  background-position: center;
+  
+  /* Additional options to ensure the background stays fixed */
+  background-attachment: fixed;
+}
