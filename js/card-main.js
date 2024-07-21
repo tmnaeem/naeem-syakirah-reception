@@ -7,7 +7,6 @@ $(function(){
     
 
     setTimeout(() => {
-        // $('body').find('.hidden-card').addClass('d-none');
         $('body').find('.opening-card').addClass('d-none');
         $('body').find('.main-div').removeClass('d-none');
         $('body').find('.navbar-card').removeClass('d-none');
