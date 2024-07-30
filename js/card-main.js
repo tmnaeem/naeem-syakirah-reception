@@ -4,7 +4,7 @@ $(function(){
      $('body').find('.opening-card').removeClass('d-none');
      $('body').find('.opening-card').addClass('animated');
      $('body').find('.opening-card').addClass('slideOutUp');
-     
+     $('body').find('.hand-wrapper').addClass('d-none');
  
      setTimeout(() => {
          $('body').find('.opening-card').addClass('d-none');
