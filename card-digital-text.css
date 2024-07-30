@@ -1,0 +1,125 @@
+.main_text {
+    text-shadow: 0.3px 0.3px 0.3px rgba(0, 0, 0, 0.25);
+    /* color: #f4d390; */
+    color: #000000;
+}
+
+.primary-text {
+    color: #800000;
+    font-size: 2.0em;
+}
+
+.secondary-text {
+    font-size: 3.0em;
+}
+
+.tertiary-text {
+    color: #800000;
+    font-size: 18px;
+}
+
+/* Extra Large Devices (Desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .primary-text {
+        font-size: 2.5em;
+    }
+    .secondary-text {
+        font-size: 3.5em;
+    }
+    .tertiary-text {
+        font-size: 20px;
+    }
+}
+
+/* Large Devices (Laptops, 992px to 1199px) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .primary-text {
+        font-size: 2.3em;
+    }
+    .secondary-text {
+        font-size: 3.3em;
+    }
+    .tertiary-text {
+        font-size: 19px;
+    }
+}
+
+/* Medium Devices (Tablets, 768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .primary-text {
+        font-size: 2.0em;
+    }
+    .secondary-text {
+        font-size: 3.0em;
+    }
+    .tertiary-text {
+        font-size: 18px;
+    }
+}
+
+/* Small Devices (Large Phones, 576px to 767px) */
+@media (min-width: 576px) and (max-width: 767px) {
+    .primary-text {
+        font-size: 1.8em;
+    }
+    .secondary-text {
+        font-size: 2.8em;
+    }
+    .tertiary-text {
+        font-size: 17px;
+    }
+}
+
+/* Extra Small Devices (Small Phones, less than 576px) */
+@media (max-width: 575px) {
+    .primary-text {
+        font-size: 1.6em;
+    }
+    .secondary-text {
+        font-size: 2.6em;
+    }
+    .tertiary-text {
+        font-size: 16px;
+    }
+}
+
+/* Adding height-based media queries */
+
+/* Height-based adjustments for small heights (less than 500px) */
+@media (max-height: 499px) {
+    .primary-text {
+        font-size: 1.5em;
+    }
+    .secondary-text {
+        font-size: 2.5em;
+    }
+    .tertiary-text {
+        font-size: 15px;
+    }
+}
+
+/* Height-based adjustments for medium heights (500px to 799px) */
+@media (min-height: 500px) and (max-height: 799px) {
+    .primary-text {
+        font-size: 1.7em;
+    }
+    .secondary-text {
+        font-size: 2.7em;
+    }
+    .tertiary-text {
+        font-size: 16px;
+    }
+}
+
+/* Height-based adjustments for large heights (800px and up) */
+@media (min-height: 800px) {
+    .primary-text {
+        font-size: 2.0em;
+    }
+    .secondary-text {
+        font-size: 3.0em;
+    }
+    .tertiary-text {
+        font-size: 18px;
+    }
+}
