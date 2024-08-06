@@ -1,11 +1,11 @@
 .main_text {
     text-shadow: 0.3px 0.3px 0.3px rgba(0, 0, 0, 0.25);
     /* color: #f4d390; */
-    color: #000000;
+    color: #26291f;
 }
 
 .primary-text {
-    color: #800000;
+    color: #26291f;
     font-size: 2.0em;
 }
 
@@ -14,7 +14,7 @@
 }
 
 .tertiary-text {
-    color: #800000;
+    color: #26291f;
     font-size: 18px;
 }
 
